@@ -191,7 +191,6 @@ contract Manageable is Context, Ownable{
 
 interface MoverInterface {
     function getMoverInfo(uint256 token_id) external view returns (uint256[8] memory,bool);
-    // function getMoverInfo1(uint256 token_id) external view returns (uint256[3] memory, bool);
 }
 
 
